@@ -14,11 +14,18 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
     <?php
     $whoIam = "I'm Mustafa";
-    $myDescription = "I'm a studying .NET Web Developer and I use this repository to push my projects that<br>I do both at my college as well as the projects I do outside of my study.";
+    $myDescription = "I'm a studying .NET Web Developer and this is my first portfolio website built using PHP<br>I do both at my college as well as the projects I do outside of my study.";
     // Links to my Social Medias, GitHub & LinkedIn Profile
     $linkNames = array("<i class='bi bi-github'></i>" => "https://github.com/mustafah99", "<i class='bi bi-google'></i>" => "mailto:mustafasaidhelal@gmail.com", "<i class='bi bi-linkedin'></i>" => "https://www.linkedin.com/in/mustafa-said-helal-bb7483228");
     ?>
 </head>
+
+<style>
+    body {
+        height: 100vh;
+    }
+</style>
+
 
 <body style="background-image: url('./Pictures/Background Image/Galaxy.jpg'); background-size: cover;">
     <!-- Header -->
@@ -37,7 +44,7 @@
         </nav>
 
         <div class="container">
-            <div class="text-center mx-auto" style="margin-top: 200px!important">
+            <div class="text-center mx-auto" style="margin: 0; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
                 <h1 class="display-3 text-white" style="font-weight: normal!important">
                     <?php
                     echo $whoIam;
