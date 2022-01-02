@@ -29,7 +29,7 @@
         <?php
         // Links for Navbar
         $secondLinkArray = array("Home" => "portfolio.php", "About Me" => "mailto:mustafasaidhelal@gmail.com", "Contact Me" => "https://www.linkedin.com/in/mustafa-said-helal-bb7483228");
-        include "navbar.php"
+        include "components/navbar.php"
         ?>
 
         <!-- Profile Name & Description Included from 'profile.php' -->
@@ -37,12 +37,14 @@
         // Name of Profile
         $whoIam = "I'm Mustafa";
         // Description of Profile
-        $myDescription = "I'm a studying .NET Developer and this is my first portfolio website built using PHP.<br>I do both projects both at my college as well as outside of my studies where I like to learn new technologies.";
+        $myDescription = "And I wanted to make my portfolio simple, because why not simplicity?";
         // Link Icons & Links to Social Media for Profile
         $linkNames = array("<i class='bi bi-github'></i>" => "https://github.com/mustafah99", "<i class='bi bi-google'></i>" => "mailto:mustafasaidhelal@gmail.com", "<i class='bi bi-linkedin'></i>" => "https://www.linkedin.com/in/mustafa-said-helal-bb7483228");
-        include "profile.php"
+        include "components/profile.php"
         ?>
     </div>
 </body>
 
 </html>
+
+<!-- I'm a .NET and Full-Stack Developer with experience in developing with React.js in both JavaScript and TypeScript, Web Application Development & Web API Development with C# .NET and ASP .NET Core, App Development in iOS with Swift-UI and PHP, HTML, CSS and Front-End Libraries, etc and more. Contact me for an inquiry! -->
