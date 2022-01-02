@@ -28,7 +28,7 @@
         <!-- Navbar Included from 'navbar.php' -->
         <?php
         // Links for Navbar
-        $secondLinkArray = array("Home" => "portfolio.php", "About Me" => "mailto:mustafasaidhelal@gmail.com", "Contact Me" => "https://www.linkedin.com/in/mustafa-said-helal-bb7483228");
+        $secondLinkArray = array("Home" => "home.php", "About Me" => "aboutme.php", "Contact Me" => "https://www.linkedin.com/in/mustafa-said-helal-bb7483228");
         include "components/navbar.php"
         ?>
 
